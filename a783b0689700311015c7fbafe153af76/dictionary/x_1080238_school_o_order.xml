@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1ef434609740311015c7fbafe153af14" extends="task" label="Order" max_length="40" name="x_1080238_school_o_order" type="collection">
+        <element attributes="encode_utf8=false" label="Order for" max_length="32" name="order_for" reference="sys_user" type="reference"/>
+        <element attributes="omit_sys_original=true" label="Total Amount" max_length="20" name="total_amount" type="currency"/>
+    </element>
+</database>

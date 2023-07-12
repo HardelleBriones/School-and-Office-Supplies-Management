@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6464b8209740311015c7fbafe153afef" label="Item" max_length="40" name="x_1080238_school_o_item" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Category" max_length="100" name="category" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Image" max_length="1024" name="image" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="Item Name" max_length="100" name="item_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="omit_sys_original=true" label="Price" max_length="20" name="price" type="currency"/>
+        <element label="Quantity" max_length="40" name="quantity" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="100" name="short_description" type="string"/>
+    </element>
+</database>
