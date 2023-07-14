@@ -7,14 +7,14 @@
         <hint>Allows the Store Manager to track the orders of customers</hint>
         <name/>
         <order/>
-        <roles>x_1080238_school_o.customer,x_1080238_school_o.sales_team,x_1080238_school_o.manager</roles>
+        <roles/>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>johniel.comanda</sys_created_by>
         <sys_created_on>2023-07-12 01:26:55</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1f65f4ec9700311015c7fbafe153af5c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>School Office Supplies Management</sys_name>
         <sys_overrides/>
         <sys_package display_value="School Office Supplies Management" source="x_1080238_school_o">a783b0689700311015c7fbafe153af76</sys_package>
@@ -22,7 +22,7 @@
         <sys_scope display_value="School Office Supplies Management">a783b0689700311015c7fbafe153af76</sys_scope>
         <sys_update_name>sys_app_application_1f65f4ec9700311015c7fbafe153af5c</sys_update_name>
         <sys_updated_by>johniel.comanda</sys_updated_by>
-        <sys_updated_on>2023-07-12 01:26:55</sys_updated_on>
+        <sys_updated_on>2023-07-12 02:13:44</sys_updated_on>
         <title>School Office Supplies Management</title>
         <view_name/>
     </sys_app_application>

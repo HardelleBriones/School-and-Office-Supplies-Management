@@ -27,9 +27,9 @@
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="URL">url</internal_type>
+        <internal_type display_value="">user_image</internal_type>
         <mandatory>false</mandatory>
-        <max_length>1024</max_length>
+        <max_length>40</max_length>
         <name>x_1080238_school_o_item</name>
         <next_element/>
         <primary>false</primary>
@@ -53,7 +53,7 @@
         <sys_scope display_value="School Office Supplies Management">a783b0689700311015c7fbafe153af76</sys_scope>
         <sys_update_name>sys_dictionary_x_1080238_school_o_item_image</sys_update_name>
         <sys_updated_by>johniel.comanda</sys_updated_by>
-        <sys_updated_on>2023-07-12 01:22:22</sys_updated_on>
+        <sys_updated_on>2023-07-12 01:36:11</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
