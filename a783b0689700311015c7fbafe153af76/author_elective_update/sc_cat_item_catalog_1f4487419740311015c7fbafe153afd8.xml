@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Temp">b6c38f019740311015c7fbafe153af9f</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>johniel.comanda</sys_created_by>
+        <sys_created_on>2023-07-14 01:08:06</sys_created_on>
+        <sys_id>1f4487419740311015c7fbafe153afd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Temp</sys_name>
+        <sys_package display_value="School Office Supplies Management" source="x_1080238_school_o">a783b0689700311015c7fbafe153af76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School Office Supplies Management">a783b0689700311015c7fbafe153af76</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_1f4487419740311015c7fbafe153afd8</sys_update_name>
+        <sys_updated_by>johniel.comanda</sys_updated_by>
+        <sys_updated_on>2023-07-14 01:08:06</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="School Office Supplies Management">a783b0689700311015c7fbafe153af76</application>
+        <file_path/>
+        <instance_id>7046e395dbfda5149831ac44d49619ea</instance_id>
+        <instance_name>dev168380</instance_name>
+        <name>sc_cat_item_catalog_1f4487419740311015c7fbafe153afd8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Temp">b6c38f019740311015c7fbafe153af9f</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>johniel.comanda</sys_created_by><sys_created_on>2023-07-14 01:08:06</sys_created_on><sys_id>1f4487419740311015c7fbafe153afd8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Temp</sys_name><sys_package display_value="School Office Supplies Management" source="x_1080238_school_o">a783b0689700311015c7fbafe153af76</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">a783b0689700311015c7fbafe153af76</sys_scope><sys_update_name>sc_cat_item_catalog_1f4487419740311015c7fbafe153afd8</sys_update_name><sys_updated_by>johniel.comanda</sys_updated_by><sys_updated_on>2023-07-14 01:08:06</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-495335957</payload_hash>
+        <record_name>Service Catalog.Temp</record_name>
+        <reverted_from/>
+        <source>cfd5f0a09740311015c7fbafe153af1a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>johniel.comanda</sys_created_by>
+        <sys_created_on>2023-07-14 01:08:06</sys_created_on>
+        <sys_id>174487419740311015c7fbafe153afdc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18951f0db330000001</sys_recorded_at>
+        <sys_updated_by>johniel.comanda</sys_updated_by>
+        <sys_updated_on>2023-07-14 01:08:06</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>9b448741ee40311091d77796d667e0db</update_guid>
+        <update_guid_history>9b448741ee40311091d77796d667e0db:-495335957</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Temp">37b5fb429704711015c7fbafe153afd3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>johniel.comanda</sys_created_by>
+        <sys_created_on>2023-07-17 07:18:03</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>5165eb83ded040609c02d5010d2733a4</sys_id>
+        <sys_metadata>1f4487419740311015c7fbafe153afd8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Temp</sys_name>
+        <sys_package display_value="School Office Supplies Management" source="x_1080238_school_o">a783b0689700311015c7fbafe153af76</sys_package>
+        <sys_parent display_value="">b6c38f019740311015c7fbafe153af9f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="School Office Supplies Management">a783b0689700311015c7fbafe153af76</sys_scope>
+        <sys_scope_delete display_value="">1b983de426774b009a2e713b65d95d90</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_1f4487419740311015c7fbafe153afd8</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_1f4487419740311015c7fbafe153afd8">174487419740311015c7fbafe153afdc</sys_update_version>
+        <sys_updated_by>johniel.comanda</sys_updated_by>
+        <sys_updated_on>2023-07-17 07:18:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
