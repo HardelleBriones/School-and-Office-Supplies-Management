@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions table="x_1080238_school_o_order">assigned_toISEMPTY^EQ<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+	current.isNewRecord();
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+ 
+}]]></script_true>
+        <set_values/>
+        <short_description>Displays Cancel Order button only on existing record</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>johniel.comanda</sys_created_by>
+        <sys_created_on>2023-07-24 08:13:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>19c4ccec9794311015c7fbafe153af9d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Displays Cancel Order button only on existing record</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="School Office Supplies Management" source="x_1080238_school_o">a783b0689700311015c7fbafe153af76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School Office Supplies Management">a783b0689700311015c7fbafe153af76</sys_scope>
+        <sys_update_name>sys_ui_policy_19c4ccec9794311015c7fbafe153af9d</sys_update_name>
+        <sys_updated_by>johniel.comanda</sys_updated_by>
+        <sys_updated_on>2023-07-24 08:33:14</sys_updated_on>
+        <table>x_1080238_school_o_order</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="School Office Supplies Management">a783b0689700311015c7fbafe153af76</application>
+        <file_path/>
+        <instance_id>7046e395dbfda5149831ac44d49619ea</instance_id>
+        <instance_name>dev168380</instance_name>
+        <name>sys_ui_policy_19c4ccec9794311015c7fbafe153af9d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_1080238_school_o_order"&gt;assigned_toISEMPTY^EQ&lt;item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;true&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+	current.isNewRecord();
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+ 
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Displays Cancel Order button only on existing record&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;johniel.comanda&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-07-24 08:13:28&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;19c4ccec9794311015c7fbafe153af9d&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Displays Cancel Order button only on existing record&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="School Office Supplies Management" source="x_1080238_school_o"&gt;a783b0689700311015c7fbafe153af76&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="School Office Supplies Management"&gt;a783b0689700311015c7fbafe153af76&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_19c4ccec9794311015c7fbafe153af9d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;johniel.comanda&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-07-24 08:33:14&lt;/sys_updated_on&gt;&lt;table&gt;x_1080238_school_o_order&lt;/table&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1414752565</payload_hash>
+        <record_name>Displays Cancel Order button only on existing record</record_name>
+        <reverted_from/>
+        <source>cfd5f0a09740311015c7fbafe153af1a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>johniel.comanda</sys_created_by>
+        <sys_created_on>2023-07-24 08:33:14</sys_created_on>
+        <sys_id>191a806497d4311015c7fbafe153af47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1898707f9bb0000001</sys_recorded_at>
+        <sys_updated_by>johniel.comanda</sys_updated_by>
+        <sys_updated_on>2023-07-24 08:33:14</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>111a806400d43110012d48512978ca47</update_guid>
+        <update_guid_history>111a806400d43110012d48512978ca47:1414752565,cdd740a076d431102d19501cdefb25dc:912757412,82e600a02ad43110bf9669d88fa42bc7:1401069252,85a6c060ecd4311085cb073ddef6e83b:241560457,bf850020b7d431106bc0fd0965815b7a:-1415335818</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-25 05:14:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>0084efebc3c9480f81e62b95c13afdc1</sys_id>
+        <sys_metadata>19c4ccec9794311015c7fbafe153af9d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Displays Cancel Order button only on existing record</sys_name>
+        <sys_package display_value="School Office Supplies Management" source="x_1080238_school_o">a783b0689700311015c7fbafe153af76</sys_package>
+        <sys_parent display_value="Order">1ef434609740311015c7fbafe153af14</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="School Office Supplies Management">a783b0689700311015c7fbafe153af76</sys_scope>
+        <sys_scope_delete display_value="">1b983de426774b009a2e713b65d95d90</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_19c4ccec9794311015c7fbafe153af9d</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_19c4ccec9794311015c7fbafe153af9d">191a806497d4311015c7fbafe153af47</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-25 05:14:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

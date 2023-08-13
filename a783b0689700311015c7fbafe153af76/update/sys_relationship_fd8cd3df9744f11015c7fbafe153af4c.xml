@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_1080238_school_o_order</basic_apply_to>
+        <basic_query_from>x_1080238_school_o_order_item</basic_query_from>
+        <insert_callback/>
+        <name>Order_Item_Relationship</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+
+})(current, parent);]]></query_with>
+        <reference_field/>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>johniel.comanda</sys_created_by>
+        <sys_created_on>2023-07-21 02:52:10</sys_created_on>
+        <sys_id>fd8cd3df9744f11015c7fbafe153af4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order_Item_Relationship</sys_name>
+        <sys_package display_value="School Office Supplies Management" source="x_1080238_school_o">a783b0689700311015c7fbafe153af76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School Office Supplies Management">a783b0689700311015c7fbafe153af76</sys_scope>
+        <sys_update_name>sys_relationship_fd8cd3df9744f11015c7fbafe153af4c</sys_update_name>
+        <sys_updated_by>johniel.comanda</sys_updated_by>
+        <sys_updated_on>2023-07-21 02:52:10</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=fd8cd3df9744f11015c7fbafe153af4c"/>
+</record_update>

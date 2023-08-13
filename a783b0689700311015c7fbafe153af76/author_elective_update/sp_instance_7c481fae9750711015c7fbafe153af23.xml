@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">318cb6269710711015c7fbafe153af67</sp_column>
+        <sp_widget display_value="Catalog Content">f2384e2047101200ba13a5554ee490ce</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>johniel.comanda</sys_created_by>
+        <sys_created_on>2023-07-31 04:41:54</sys_created_on>
+        <sys_id>7c481fae9750711015c7fbafe153af23</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="School Office Supplies Management" source="x_1080238_school_o">a783b0689700311015c7fbafe153af76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School Office Supplies Management">a783b0689700311015c7fbafe153af76</sys_scope>
+        <sys_update_name>sp_instance_7c481fae9750711015c7fbafe153af23</sys_update_name>
+        <sys_updated_by>johniel.comanda</sys_updated_by>
+        <sys_updated_on>2023-07-31 04:42:17</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=7c481fae9750711015c7fbafe153af23"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="School Office Supplies Management">a783b0689700311015c7fbafe153af76</application>
+        <file_path/>
+        <instance_id>7046e395dbfda5149831ac44d49619ea</instance_id>
+        <instance_name>dev168380</instance_name>
+        <name>sp_instance_7c481fae9750711015c7fbafe153af23</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">318cb6269710711015c7fbafe153af67</sp_column><sp_widget display_value="Catalog Content">f2384e2047101200ba13a5554ee490ce</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>johniel.comanda</sys_created_by><sys_created_on>2023-07-31 04:41:54</sys_created_on><sys_id>7c481fae9750711015c7fbafe153af23</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package display_value="School Office Supplies Management" source="x_1080238_school_o">a783b0689700311015c7fbafe153af76</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">a783b0689700311015c7fbafe153af76</sys_scope><sys_update_name>sp_instance_7c481fae9750711015c7fbafe153af23</sys_update_name><sys_updated_by>johniel.comanda</sys_updated_by><sys_updated_on>2023-07-31 04:42:17</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=7c481fae9750711015c7fbafe153af23"/></record_update>]]></payload>
+        <payload_hash>497839463</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>cfd5f0a09740311015c7fbafe153af1a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>johniel.comanda</sys_created_by>
+        <sys_created_on>2023-07-31 04:42:17</sys_created_on>
+        <sys_id>6258d3ee9750711015c7fbafe153af1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189aa410fbd0000001</sys_recorded_at>
+        <sys_updated_by>johniel.comanda</sys_updated_by>
+        <sys_updated_on>2023-07-31 04:42:17</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>6a58d3ee34507110c7f4dd9757cd251c</update_guid>
+        <update_guid_history>6a58d3ee34507110c7f4dd9757cd251c:497839463,464853eefe507110bfec5eee08347759:724088168,74481faefd5071107943cfd15cac5025:497839463</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">b35853ee9750711015c7fbafe153afe7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>johniel.comanda</sys_created_by>
+        <sys_created_on>2023-07-31 04:42:23</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>6093f93213ff47809f789d0a667bd489</sys_id>
+        <sys_metadata>7c481fae9750711015c7fbafe153af23</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="School Office Supplies Management" source="x_1080238_school_o">a783b0689700311015c7fbafe153af76</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="School Office Supplies Management">a783b0689700311015c7fbafe153af76</sys_scope>
+        <sys_scope_delete display_value="">1b983de426774b009a2e713b65d95d90</sys_scope_delete>
+        <sys_update_name>sp_instance_7c481fae9750711015c7fbafe153af23</sys_update_name>
+        <sys_update_version display_value="sp_instance_7c481fae9750711015c7fbafe153af23">6258d3ee9750711015c7fbafe153af1d</sys_update_version>
+        <sys_updated_by>johniel.comanda</sys_updated_by>
+        <sys_updated_on>2023-07-31 04:42:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

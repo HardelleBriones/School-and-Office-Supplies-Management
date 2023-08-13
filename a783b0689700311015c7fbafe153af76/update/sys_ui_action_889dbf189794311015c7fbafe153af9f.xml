@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>Cancel Order</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>current.requested_for == gs.getUserID()</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint>Cancel checked out order</hint>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages>Order has been canceled</messages>
+        <name>Cancel Order</name>
+        <onclick>onCancelOrder()</onclick>
+        <order>-100</order>
+        <script><![CDATA[function onCancelOrder() {
+	alert('Checkpoint 1');
+	// Get the display value of the choice
+	var displayValue = gr.getElement('state').getChoiceValue('5');
+	alert('Checkpoint 2');
+	// Set the value of the 'state' field to the choice label.
+	g_form.setValue('state', displayValue);
+
+	var message = g_form.addInfoMessage('Order has been canceled');
+	setTimeout(function() {
+		g_form.clearMessages();
+	}, 3000);
+
+	// Save the record after setting the state field (if needed)
+	g_form.save();
+}]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>johniel.comanda</sys_created_by>
+        <sys_created_on>2023-07-24 07:50:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>889dbf189794311015c7fbafe153af9f</sys_id>
+        <sys_mod_count>39</sys_mod_count>
+        <sys_name>Cancel Order</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="School Office Supplies Management" source="x_1080238_school_o">a783b0689700311015c7fbafe153af76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School Office Supplies Management">a783b0689700311015c7fbafe153af76</sys_scope>
+        <sys_update_name>sys_ui_action_889dbf189794311015c7fbafe153af9f</sys_update_name>
+        <sys_updated_by>johniel.comanda</sys_updated_by>
+        <sys_updated_on>2023-07-25 08:52:59</sys_updated_on>
+        <table>x_1080238_school_o_order</table>
+        <ui11_compatible>false</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Hides cancel order button when in record creation form</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Cancel Order Button display</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    // Check if the form is in add mode (record creation)
+    if (g_form.isNewRecord()) {
+        // Hide the button when creating a new record
+        g_form.setDisplay('sys_ui_action_889dbf189794311015c7fbafe153af9f', false);
+    } else {
+        // Show the button for existing records
+        g_form.setDisplay('sys_ui_action_889dbf189794311015c7fbafe153af9f', true);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>johniel.comanda</sys_created_by>
+        <sys_created_on>2023-07-25 00:46:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e257ab289710311015c7fbafe153afe4</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Cancel Order Button display</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="School Office Supplies Management" source="x_1080238_school_o">a783b0689700311015c7fbafe153af76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School Office Supplies Management">a783b0689700311015c7fbafe153af76</sys_scope>
+        <sys_update_name>sys_script_client_e257ab289710311015c7fbafe153afe4</sys_update_name>
+        <sys_updated_by>johniel.comanda</sys_updated_by>
+        <sys_updated_on>2023-07-25 01:01:08</sys_updated_on>
+        <table>x_1080238_school_o_order</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="School Office Supplies Management">a783b0689700311015c7fbafe153af76</application>
+        <file_path/>
+        <instance_id>7046e395dbfda5149831ac44d49619ea</instance_id>
+        <instance_name>dev168380</instance_name>
+        <name>sys_script_client_e257ab289710311015c7fbafe153afe4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Hides cancel order button when in record creation form&lt;/description&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Cancel Order Button display&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+    // Check if the form is in add mode (record creation)
+    if (g_form.isNewRecord()) {
+        // Hide the button when creating a new record
+        g_form.setDisplay('sys_ui_action_889dbf189794311015c7fbafe153af9f', false);
+    } else {
+        // Show the button for existing records
+        g_form.setDisplay('sys_ui_action_889dbf189794311015c7fbafe153af9f', true);
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;johniel.comanda&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-07-25 00:46:38&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e257ab289710311015c7fbafe153afe4&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Cancel Order Button display&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="School Office Supplies Management" source="x_1080238_school_o"&gt;a783b0689700311015c7fbafe153af76&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="School Office Supplies Management"&gt;a783b0689700311015c7fbafe153af76&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_e257ab289710311015c7fbafe153afe4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;johniel.comanda&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-07-25 01:01:08&lt;/sys_updated_on&gt;&lt;table&gt;x_1080238_school_o_order&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2074072518</payload_hash>
+        <record_name>Cancel Order Button display</record_name>
+        <reverted_from/>
+        <source>cfd5f0a09740311015c7fbafe153af1a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>johniel.comanda</sys_created_by>
+        <sys_created_on>2023-07-25 01:01:08</sys_created_on>
+        <sys_id>ac3ceba89710311015c7fbafe153af97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1898a906ede0000001</sys_recorded_at>
+        <sys_updated_by>johniel.comanda</sys_updated_by>
+        <sys_updated_on>2023-07-25 01:01:08</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>a43ceba89f1031103e08747809526197</update_guid>
+        <update_guid_history>a43ceba89f1031103e08747809526197:-2074072518,92cb67a8801031107e1b1de23f803dff:243323836,b91b67e4d4103110c89e62e442e62a78:981838524,adda67a8fe103110c5e6ece85a998bfa:204395465,8ce863a83f10311028b0f87ff6ed4d72:-279692837</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>johniel.comanda</sys_created_by>
+        <sys_created_on>2023-07-25 01:06:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>a11ce8244e1b4e2c9569a36a522483c4</sys_id>
+        <sys_metadata>e257ab289710311015c7fbafe153afe4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cancel Order Button display</sys_name>
+        <sys_package display_value="School Office Supplies Management" source="x_1080238_school_o">a783b0689700311015c7fbafe153af76</sys_package>
+        <sys_parent display_value="Order">1ef434609740311015c7fbafe153af14</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="School Office Supplies Management">a783b0689700311015c7fbafe153af76</sys_scope>
+        <sys_scope_delete display_value="">1b983de426774b009a2e713b65d95d90</sys_scope_delete>
+        <sys_update_name>sys_script_client_e257ab289710311015c7fbafe153afe4</sys_update_name>
+        <sys_update_version display_value="sys_script_client_e257ab289710311015c7fbafe153afe4">ac3ceba89710311015c7fbafe153af97</sys_update_version>
+        <sys_updated_by>johniel.comanda</sys_updated_by>
+        <sys_updated_on>2023-07-25 01:06:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

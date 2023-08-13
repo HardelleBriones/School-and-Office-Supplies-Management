@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>false</active>
+        <api_name>x_1080238_school_o.RedirectToPortal</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Script for redirecting a customer to the School Office Supplies Management portal</description>
+        <name>RedirectToPortal</name>
+        <script><![CDATA[var RedirectToPortal = Class.create();
+RedirectToPortal.prototype = {
+  process: function() {
+    // Get the current user
+    var user = gs.getUser();
+
+    // Check if the user meets the criteria to be redirected
+    if (user && user.hasRole('x_1080238_school_o.customer')) {
+      // Redirect the user to the portal URL
+      gs.sendRedirect('https://dev168380.service-now.com/sos');
+    }
+  },
+
+  type: 'RedirectToPortal'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>johniel.comanda</sys_created_by>
+        <sys_created_on>2023-07-14 07:27:39</sys_created_on>
+        <sys_id>23da58919784311015c7fbafe153aff4</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>RedirectToPortal</sys_name>
+        <sys_package display_value="School Office Supplies Management" source="x_1080238_school_o">a783b0689700311015c7fbafe153af76</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="School Office Supplies Management">a783b0689700311015c7fbafe153af76</sys_scope>
+        <sys_update_name>sys_script_include_23da58919784311015c7fbafe153aff4</sys_update_name>
+        <sys_updated_by>johniel.comanda</sys_updated_by>
+        <sys_updated_on>2023-07-18 08:20:17</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="School Office Supplies Management">a783b0689700311015c7fbafe153af76</application>
+        <file_path/>
+        <instance_id>7046e395dbfda5149831ac44d49619ea</instance_id>
+        <instance_name>dev168380</instance_name>
+        <name>sys_script_include_23da58919784311015c7fbafe153aff4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;false&lt;/active&gt;&lt;api_name&gt;x_1080238_school_o.RedirectToPortal&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description&gt;Script for redirecting a customer to the School Office Supplies Management portal&lt;/description&gt;&lt;name&gt;RedirectToPortal&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var RedirectToPortal = Class.create();
+RedirectToPortal.prototype = {
+  process: function() {
+    // Get the current user
+    var user = gs.getUser();
+
+    // Check if the user meets the criteria to be redirected
+    if (user &amp;&amp; user.hasRole('x_1080238_school_o.customer')) {
+      // Redirect the user to the portal URL
+      gs.sendRedirect('https://dev168380.service-now.com/sos');
+    }
+  },
+
+  type: 'RedirectToPortal'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;johniel.comanda&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-07-14 07:27:39&lt;/sys_created_on&gt;&lt;sys_id&gt;23da58919784311015c7fbafe153aff4&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;RedirectToPortal&lt;/sys_name&gt;&lt;sys_package display_value="School Office Supplies Management" source="x_1080238_school_o"&gt;a783b0689700311015c7fbafe153af76&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="School Office Supplies Management"&gt;a783b0689700311015c7fbafe153af76&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_23da58919784311015c7fbafe153aff4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;johniel.comanda&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-07-18 08:20:17&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1737846074</payload_hash>
+        <record_name>RedirectToPortal</record_name>
+        <reverted_from/>
+        <source>cfd5f0a09740311015c7fbafe153af1a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>johniel.comanda</sys_created_by>
+        <sys_created_on>2023-07-18 08:20:17</sys_created_on>
+        <sys_id>0d9d892a9700311015c7fbafe153af0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1896815f91d0000001</sys_recorded_at>
+        <sys_updated_by>johniel.comanda</sys_updated_by>
+        <sys_updated_on>2023-07-18 08:20:17</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>059d892a1f0031103803fbf79333240a</update_guid>
+        <update_guid_history>059d892a1f0031103803fbf79333240a:1737846074,83d1ec195c843110bf53ce70bb19d3ec:1157493671,64a1e81975843110f151d0f14a388120:149292325,327160593b8431107fd6e25c27ab45d7:586918651,fc51ec1941843110e6fbaf2a9df11f5b:-896835167,3ff0e01989843110dad981f0e8108d46:586918651,7faf9c1536843110886fc645a8eba15d:405328876,069cdc91118431103c9108b49a03ad70:673577017,590cdc516f843110e2845f013a043441:-226425169,032bd451268431108db001a3c2b656fb:1494724710</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>johniel.comanda</sys_created_by>
+        <sys_created_on>2023-07-20 01:27:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>0374ac2f733a486ca17b0b9d785b6c24</sys_id>
+        <sys_metadata>23da58919784311015c7fbafe153aff4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RedirectToPortal</sys_name>
+        <sys_package display_value="School Office Supplies Management" source="x_1080238_school_o">a783b0689700311015c7fbafe153af76</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="School Office Supplies Management">a783b0689700311015c7fbafe153af76</sys_scope>
+        <sys_scope_delete display_value="">1b983de426774b009a2e713b65d95d90</sys_scope_delete>
+        <sys_update_name>sys_script_include_23da58919784311015c7fbafe153aff4</sys_update_name>
+        <sys_update_version display_value="sys_script_include_23da58919784311015c7fbafe153aff4">0d9d892a9700311015c7fbafe153af0a</sys_update_version>
+        <sys_updated_by>johniel.comanda</sys_updated_by>
+        <sys_updated_on>2023-07-20 01:27:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
